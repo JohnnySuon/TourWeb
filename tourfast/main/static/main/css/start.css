@@ -1,0 +1,116 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.block-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+/* Контейнер для фона и текста */
+.image-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('{% static "main/img/startphotomainpage.jpg" %}') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Стили для текста в блоках */
+.meeting-service {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.better-service {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+/* Стили для поля поиска */
+.search-box {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Центрируем по вертикали */
+    display: flex;
+    justify-content: space-between;
+    width: 80%; /* Ограничиваем ширину */
+    max-width: 800px; /* Ограничиваем максимальную ширину */
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2; /* Чтобы поле поиска было поверх фона */
+}
+
+.search-input, .date-input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.search-button {
+    background: #a3c300;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Стили для карточек */
+.block-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+/* Стили для кнопки */
+.button-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.create-design-button {
+    background: #a3c300;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}

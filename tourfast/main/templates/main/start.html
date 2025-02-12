@@ -1,0 +1,61 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %} Главная {% endblock %}
+
+{% block links %}
+<link rel="stylesheet" href="{% static 'main/css/start.css' %}">
+{% endblock %}
+
+{% block body %}
+
+<div class="image-background">
+    <img src="{% static 'main/img/startphotomainpage.jpg' %}" alt="Travel Adventure" id="background-image">
+</div>
+
+<div class="main-container">
+    <div class="text-overlay">
+        <h1 class="meeting-service">Открой для себя мир с TourFast!</h1>
+        <h1 class="better-service">Лучшие авторские туры для тебя</h1>
+    </div>
+
+    <div class="search-box">
+        <input type="text" placeholder="Куда вы хотите?" class="search-input">
+        <input type="text" placeholder="Месяц или даты" class="date-input">
+        <button class="search-button">Найти 🔍</button>
+    </div>
+
+    <div class="block-section">
+        <div class="card first">
+            <div class="icon">
+                <img src="{% static 'main/img/startphotomainpage.jpg' %}" alt="Индивидуальный тур" />
+            </div>
+            <h2>Индивидуальные туры</h2>
+            <p>Создавайте путешествия по вашим предпочтениям! Гибкие маршруты, уникальные локации и персональный гид.</p>
+        </div>
+
+        <div class="card orange">
+            <div class="icon">
+                <img src="{% static 'main/img/startphotomainpage.jpg' %}" alt="Новости туров" />
+            </div>
+            <h2>Горящие предложения</h2>
+            <p>Следите за эксклюзивными скидками и горящими турами в нашем Telegram-канале. Не пропустите лучшие цены!</p>
+        </div>
+
+        <div class="card purple">
+            <div class="icon">
+                <img src="{% static 'main/img/startphotomainpage.jpg' %}" alt="Скидки на туры" />
+            </div>
+            <h2>Скидки и бонусы</h2>
+            <p>Получайте бонусы за бронирование и участвуйте в акциях! Экономьте на путешествиях с TourFast.</p>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <a class="btn create-design-button" href="{% url 'tours_page' %}" title="Смотреть туры">
+            Смотреть все туры
+        </a>
+    </div>
+
+</div>
+{% endblock %}
