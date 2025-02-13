@@ -1,0 +1,31 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_13_02_2025_13_18_[Changes]" date="1739441912387" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_02_2025_13_18_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 13.02.2025 13:18 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="tourfast/main/static/main/img/city_architecture_buildings.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="tourfast/main/static/main/img/montenegro_durmitorabljak.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_02_2025_13_18_[Changes]/montenegro_durmitorabljak.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="tourfast/main/static/main/img/eb5a64f8ef6bf898962c0766e506d6e6.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_02_2025_13_18_[Changes]/eb5a64f8ef6bf898962c0766e506d6e6.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="GitHub/TourWeb" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="tourfast/main/static/main/img/forest_peak_travel1.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_02_2025_13_18_[Changes]/forest_peak_travel1.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="tourfast/main/static/main/img/startphotomainpage.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_02_2025_13_18_[Changes]/startphotomainpage.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="tourfast/db.sqlite3" />
+    <option name="AFTER_PATH" value="tourfast/db.sqlite3" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_02_2025_13_18_[Changes]/db.sqlite3" />
+  </binary>
+</changelist>
